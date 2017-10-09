@@ -22,6 +22,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.debug.wfd.enable=1 \
     persist.sys.wfd.virtual=0 \
     ro.setupwizard.rotation_locked=true \
+    persist.sys.disable_rescue=true \
     ro.build.selinux=1
 
 # Allow tethering without provisioning app
