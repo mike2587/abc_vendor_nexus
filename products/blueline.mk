@@ -19,11 +19,11 @@ ifneq (,$(filter user,$(TARGET_BUILD_VARIANT)))
 	PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/security/releasekey
 endif
 
-# Inherit abc device configuration for taimen
-$(call inherit-product, device/google/taimen/abc.mk)
+# Inherit abc device configuration for blueline
+$(call inherit-product, device/google/blueline/abc.mk)
 
-PRODUCT_NAME := taimen
-PRODUCT_DEVICE := taimen
+PRODUCT_NAME := blueline
+PRODUCT_DEVICE := blueline
 PRODUCT_BRAND := Google
-PRODUCT_MODEL := Pixel 2 XL
+PRODUCT_MODEL := Pixel 3
 PRODUCT_MANUFACTURER := Google
