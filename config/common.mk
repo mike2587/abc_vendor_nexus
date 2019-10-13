@@ -34,7 +34,7 @@ PRODUCT_COPY_FILES += \
 
 # Init files
 PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/common/etc/init.local.rc:system/etc/init/dirtyunicorns.rc
+    vendor/nexus/prebuilt/common/etc/init.local.rc:system/etc/init/abc.rc
 
 # Don't export PS1 in /system/etc/mkshrc.
 PRODUCT_COPY_FILES += \

@@ -3,8 +3,8 @@
 aosp_devices=('taimen')
 
 function lunch_devices() {
-    add_lunch_combo du_${device}-user
-    add_lunch_combo du_${device}-userdebug
+    add_lunch_combo abc_${device}-user
+    add_lunch_combo abc_${device}-userdebug
 }
 
 #if [[ $( grep -i "caf" manifest/README.md) ]]; then
