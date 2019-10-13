@@ -12,4 +12,5 @@
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    NexusLauncherRelease
+    NexusLauncherRelease \
+    WallpaperPickerGooglePrebuilt
