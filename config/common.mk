@@ -57,4 +57,5 @@ include vendor/nexus/config/branding.mk
 include vendor/themes/common.mk
 
 # Overlays
-#PRODUCT_PACKAGE_OVERLAYS += vendor/nexus/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/nexus/overlay/common
+
