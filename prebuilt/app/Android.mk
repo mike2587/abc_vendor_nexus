@@ -12,16 +12,3 @@
 # limitations under the License.
 
 LOCAL_PATH := $(call my-dir)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := SoundPickerPrebuilt
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_PATH := $(PRODUCT_OUT)/$(TARGET_COPY_OUT_PRODUCT)/app
-LOCAL_SRC_FILES := SoundPickerPrebuilt/SoundPickerPrebuilt.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
