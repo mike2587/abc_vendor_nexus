@@ -13,4 +13,7 @@
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     NexusLauncherRelease \
-    WallpaperPickerGooglePrebuilt
+    NexusWallpapersStubPrebuilt2019 \
+    PixelThemesStub2019 \
+    PixelLiveWallpaperPrebuilt \
+    WallpaperPickerGoogleRelease
