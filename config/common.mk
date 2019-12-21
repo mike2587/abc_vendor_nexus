@@ -27,6 +27,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     net.tethering.noprovisioning=true
 
+# Gestures
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+
 PRODUCT_COPY_FILES += \
     vendor/nexus/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
     vendor/nexus/prebuilt/common/bin/sysinit:system/bin/sysinit
