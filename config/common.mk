@@ -31,9 +31,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 
-PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
-
 # Init files
 PRODUCT_COPY_FILES += \
     vendor/nexus/prebuilt/common/etc/init.local.rc:system/etc/init/abc.rc
