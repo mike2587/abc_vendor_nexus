@@ -11,5 +11,5 @@
 # limitations under the License.
 
 # Prebuilt Packages
-PRODUCT_PACKAGES += \
-    NexusLauncherRelease \
+#PRODUCT_PACKAGES += \
+    Something \
