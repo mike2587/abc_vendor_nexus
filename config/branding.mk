@@ -1,5 +1,5 @@
 # Versioning System
-ABC_BASE_VERSION = v10
+ABC_BASE_VERSION = v11
 
 ifndef ABC_BUILD_TYPE
     ABC_BUILD_TYPE := OFFICIAL
