@@ -26,10 +26,10 @@
     <!-- Smart replies in notifications: Whether we disable the feature unless the app targets P -->
     <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
 
-    <!-- The default tiles to display in QuickSettings 
+    <!-- The default tiles to display in QuickSettings -->
     <string name="quick_settings_tiles_default" translatable="false">
-        wifi,cell,battery,dnd,flashlight,rotation,bt,airplane,nfc,location,hotspot,inversion,saver,dark,work,cast,night
-    </string>-->
+        wifi,bt,nfc,dnd,flashlight,rotation,battery,cell,airplane,cast,screenrecord
+    </string>
 
     <!-- Launcher package name for overlaying icons. -->
     <string name="launcher_overlayable_package" translatable="false">com.google.android.apps.nexuslauncher</string>
